@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z6KMSBT)
+
 # PWORD
 _Pword is an Encrypted Password Generator written in Python._
 
@@ -38,11 +40,11 @@ Pword generates passwords and Encrypt/Decrypt them using the Fernet module.
 ![Screenshot](https://github.com/gelndjj/Pword/blob/main/img/send.png)
 
 ### REQUIREMENTS INSTALLATION
-
-> pip install -r requirements.txt
-
+```
+pip install -r requirements.txt
+```
 ### CLONE REPO
-
-> git clone https://github.com/gelndjj/Pword.git
-
+```
+git clone https://github.com/gelndjj/Pword.git
+```
 
