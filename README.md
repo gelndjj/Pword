@@ -24,7 +24,7 @@ Pword generates passwords and Encrypt/Decrypt them using the Fernet module.
 
 ####  GENERATE AND ENCRYPT
 ##### By default, a password (lenght 12) is generated, you can generate another lenght by changing the value or write your own password.
-###### Once the password generated click on **Encrypt**, Pword then creates three files, one is a text file containing the encrypted password, the second is the *.key that is a crucial file to decrypt the encrypted password and the last one is a zip file containing those both files quoted earlier. The two files (.key and .txt) will be available in the combobox fields (as well as inside the directory where the script is launched) above the Decrypt button.
+###### Once the password is generated click on **Encrypt**, Pword then creates three files, one is a text file containing the encrypted password, the second is the *.key that is a crucial file to decrypt the encrypted password and the last one is a zip file containing both files previously quoted. The two files (.key and .txt) will be available in the combobox fields (as well as inside the directory where the script is launched) above the Decrypt button.
 
 ![Screenshot](https://github.com/gelndjj/Pword/blob/main/img/files.png)
 
