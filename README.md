@@ -60,7 +60,7 @@
 Having spare time ahead of me, I wanted to know what sharing online a password could look like.
 Is there a way to make it hard to find out, without making one of 30 chars length ?</br>
 </br>
-I wrote this script that generate passwords, encrypt them and share by mail while giving to end user the tool to decrypt.
+Encryption was the way to go so I wrote this script that generate passwords, encrypt them and share by mail while giving to end user the tool to decrypt.
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
