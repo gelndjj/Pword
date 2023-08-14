@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-<img src="https://github.com/gelndjj/Pword/blob/main/resources/main_windows.png" alt="Logo" width="600" height="300">
+<img src="https://github.com/gelndjj/Pword/blob/main/resources/main_windows.png" alt="Logo" width="541" height="393">
 </br>
 </br>
 Having spare time ahead of me, I wanted to know what sharing online a password could look like.
@@ -91,9 +91,8 @@ I wrote this script that generate passwords, encrypt them and share by mail whil
 ![Screenshot](https://github.com/gelndjj/Pword/blob/main/img/files.png)
 
 #### DECRYPT
-##### When you encrypted a password, the generated .key and .txt files are named by the timestamp.
-###### Select the same .key and .txt then click on **Decrypt**.The password will be shown in the first field.
-##### The password is automatically copied to the clipboard by clicking anywhere in the text field.
+##### When you encrypted a password, the generated .key and .txt files are named by the timestamp.Select the same .key and .txt then click on **Decrypt**.The password will be shown in the first field.
+#### The password is automatically copied to the clipboard by clicking anywhere in the text field.
 
 ![Screenshot](https://github.com/gelndjj/Pword/blob/main/img/decrypt.png)
 
