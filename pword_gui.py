@@ -28,7 +28,6 @@ def encrypt_password():
     files_to_zip = [key_file, encrypt_file]
 
     with zipfile.ZipFile(zip_file_name, 'w') as zip_file:
-        # Add files to the zip file
         for file in files_to_zip:
             zip_file.write(file, os.path.basename(file)) 
 
@@ -48,7 +47,6 @@ def decrypt_password():
         with open(path2,'r') as file:
             first_line = file.readline()
         encrypted_password = first_line
-        #encrypted_password = entry.get().encode()
         decrypted_password = f.decrypt(encrypted_password)
         entry.delete(0,'end')
         entry.insert(0,f'{decrypted_password.decode()}')
@@ -121,7 +119,7 @@ my_font = ("Arial", 16, "bold")
 canvas = tk.Canvas(window, width=700, height=450, highlightthickness=0)
 canvas.pack()
 
-image = Image.open("img_ico/bg.png")
+image = Image.open("resources/bg.png")
 photo = ImageTk.PhotoImage(image)
 
 canvas.create_image(0, 0, anchor=tk.NW, image=photo)
@@ -138,12 +136,12 @@ label.place(relx=0.5, y=25, anchor=tk.CENTER)
 entry = ttk.Entry(frame, width=15)
 entry.place(relx=0.5, y=50, anchor=tk.CENTER)
 
-encrypt_img = ck.CTkImage(light_image=Image.open("img_ico/encrypt.png"),size=(32,32))
-decrypt_img = ck.CTkImage(light_image=Image.open("img_ico/decrypt.png"),size=(32,32))
-generate_img = ck.CTkImage(light_image=Image.open("img_ico/generate.png"),size=(20,20))
-send_img = ck.CTkImage(light_image=Image.open("img_ico/send.png"),size=(20,20))
-git_img = ck.CTkImage(light_image=Image.open("img_ico/git.png"),size=(20,20))
-exit_img = ck.CTkImage(light_image=Image.open("img_ico/exit.png"),size=(20,20))
+encrypt_img = ck.CTkImage(light_image=Image.open("resources/encrypt.png"),size=(32,32))
+decrypt_img = ck.CTkImage(light_image=Image.open("resources/decrypt.png"),size=(32,32))
+generate_img = ck.CTkImage(light_image=Image.open("resources/generate.png"),size=(20,20))
+send_img = ck.CTkImage(light_image=Image.open("resources/send.png"),size=(20,20))
+git_img = ck.CTkImage(light_image=Image.open("resources/git.png"),size=(20,20))
+exit_img = ck.CTkImage(light_image=Image.open("resources/exit.png"),size=(20,20))
 
 encrypt_button = ck.CTkButton(frame, text="Encrypt", height=40, fg_color='#806d5f', border_width=2, border_color='#313246', hover_color='#f03e34', image=encrypt_img, command=encrypt_password)
 encrypt_button.place(relx=0.5, y=90, anchor=tk.CENTER)
