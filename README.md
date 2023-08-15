@@ -94,12 +94,12 @@ Encryption was the way to go so I wrote this script that generate passwords, enc
 ##### When you encrypted a password, the generated .key and .txt files are named by the timestamp.Select the same .key and .txt then click on **Decrypt**.The password will be shown in the first field.
 #### The password is automatically copied to the clipboard by clicking anywhere in the text field.
 
-![Screenshot](https://github.com/gelndjj/Pword/blob/main/img/decrypt.png)
+![Screenshot](https://github.com/gelndjj/Pword/blob/main/img/decrypt_screenshot.png)
 
 #### SEND ENCRYPTED PASSWORD BY EMAIL
 ###### Clicking on the **Send button** will open a filedialog where you can choose the zip file (that contains both key and text files), then the application MAIL (OSX) will be launched with the zip file attached to a new email. Write the mail of the person you want to send to and click on send.
 
-![Screenshot](https://github.com/gelndjj/Pword/blob/main/img/send.png)
+![Screenshot](https://github.com/gelndjj/Pword/blob/main/img/send_screenshot.png)
 
 
 
