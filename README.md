@@ -100,11 +100,9 @@ Run the pword_gui.py script in a Python environment with the required dependenci
 2. Encrypting a Password:
 Enter the password you wish to encrypt in the provided field.
 Click on the 'Encrypt' button to encrypt the password. The encrypted password along with a key file will be saved in a zip archive.
-</br>
 3. Decrypting a Password:
 To decrypt a password, select the appropriate key file and the encrypted password file using the dropdown menus.
 Click on 'Decrypt' to display the decrypted password.
-</br>
 4. Additional Features:
 Use the 'Copy' button to copy the password to the clipboard.
 The 'Send by Email' feature allows you to share the encrypted password securely.
