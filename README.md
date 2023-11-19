@@ -97,7 +97,6 @@ Organizations seeking an efficient solution for secure credential management.</b
 
 1. Starting the Application:
 Run the pword_gui.py script in a Python environment with the required dependencies (tkinter, cryptography, PIL).
-</br>
 2. Encrypting a Password:
 Enter the password you wish to encrypt in the provided field.
 Click on the 'Encrypt' button to encrypt the password. The encrypted password along with a key file will be saved in a zip archive.
