@@ -57,10 +57,22 @@
 <img src="https://github.com/gelndjj/Pword/blob/main/resources/main_windows.png" alt="Logo" width="541" height="393">
 </br>
 </br>
-Having spare time ahead of me, I wanted to know what sharing online a password could look like.
-Is there a way to make it hard to find out, without making one of 30 chars length ?</br>
+Pword is a sophisticated password encryption and decryption tool developed in Python, equipped with a user-friendly graphical interface. It is designed to provide a secure and efficient way to manage sensitive information, particularly passwords. Pword harnesses the power of cryptography to ensure that your passwords are stored and handled with the utmost security.
+
+Core Features:
+
++ Encryption & Decryption: Utilizes advanced cryptographic techniques to encrypt and decrypt passwords securely.
++ Intuitive GUI: Features a custom tkinter-based interface that is easy to navigate, ensuring a seamless user experience.
++ Password Management: Efficiently handles password storage and retrieval, helping users manage their credentials with ease.
++ File Handling: Allows users to save encrypted passwords in files, ensuring safe storage and easy retrieval.
++ Versatility in Usage: Suitable for both personal and professional settings where password security is paramount. 
 </br>
-Encryption was the way to go so I wrote this script that generate passwords, encrypt them and share by mail while giving to end user the tool to decrypt.
+</br>
+Ideal Users:
+</br>
+Individuals looking for a secure way to manage their passwords.
+Professionals in need of a reliable tool to handle sensitive information.
+Organizations seeking an efficient solution for secure credential management.</br>
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -81,6 +93,28 @@ Encryption was the way to go so I wrote this script that generate passwords, enc
 ## Usage
 </br>
 
+### SUMMARY
+
+1. Starting the Application:
+Run the pword_gui.py script in a Python environment with the required dependencies (tkinter, cryptography, PIL).
+</br>
+2. Encrypting a Password:
+Enter the password you wish to encrypt in the provided field.
+Click on the 'Encrypt' button to encrypt the password. The encrypted password along with a key file will be saved in a zip archive.
+</br>
+3. Decrypting a Password:
+To decrypt a password, select the appropriate key file and the encrypted password file using the dropdown menus.
+Click on 'Decrypt' to display the decrypted password.
+</br>
+4. Additional Features:
+Use the 'Copy' button to copy the password to the clipboard.
+The 'Send by Email' feature allows you to share the encrypted password securely.
+Access the project's GitHub repository directly through the GUI for updates and information.
+Exiting the Application:
+Click the 'Exit' button to safely close the application.
+</br>
+
+### DETAILED
 ####  GENERATE AND ENCRYPT
 ##### By default, a 12 characters length password is generated, you can generate another length by changing the value or write your own password.
 ###### Once the password is generated click on **Encrypt**, Pword then creates three files.
